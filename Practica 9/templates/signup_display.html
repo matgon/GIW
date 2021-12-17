@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+</head>
+<body>
+    <p>Bienvenido usuario {{ full_name }}</p>
+    <P>{{ otp }}</p>
+    <img src="{{ qrcode(totp_url) }}">
+</body>
+</html>
